@@ -8,8 +8,8 @@ const prompt=require('prompt-sync')();
 async function procesoArchivos(){
 
 //Se le pide al usuario nombre y cantidad de archivos
-    const nombre=prompt("Ingrese su nombre por favor");
-    const cant=parseInt(prompt("Ingrese la cantidad de archivos que desea generar"));
+    let nombre=prompt("Ingrese su nombre por favor");
+    let cant=parseInt(prompt("Ingrese la cantidad de archivos que desea generar"));
 
 //Ciclo que crea la cantidad de archivos ingresada por el usuario 
     for(let i =1; i<= cant ;i++){
