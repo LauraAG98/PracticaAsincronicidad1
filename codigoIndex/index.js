@@ -1,12 +1,7 @@
-const { error } = require('console');
-const { performServerHandshake } = require('http2');
-
 const arch= require('fs').promises;
 const prompt=require('prompt-sync')();
 
 function procesoArchivos(){
-
-
     const nombre=prompt("Ingrese su nombre por favor");
     const cant=parseInt(prompt("Ingrese la cantidad de archivos que desea generar"));
 
